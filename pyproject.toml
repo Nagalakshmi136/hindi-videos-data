@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hindi-audio-text"
+version = "0.1.0"
+description = ""
+authors = ["munikumar.mm <munikumar7085@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hindi_audio_text"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+moviepy = "^1.0.3"
+requests = "^2.31.0"
+google-api-python-client = "^2.97.0"
+pandas = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
